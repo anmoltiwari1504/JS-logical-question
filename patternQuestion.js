@@ -160,7 +160,7 @@
 //        * * * *
 //          * * *
 //            * *
- //              *
+ //            *
 // for (let i = 5; i >= 1; i--) {
 //   let row = "";
 
@@ -176,3 +176,79 @@
 
 //   document.write(row + "<br>");
 // }
+
+
+//       *
+//     * * *
+// 	 * * * * *
+//   * * * * * * *
+//  * * * * * * * * *
+
+// for (let i = 1; i <= 5; i++){
+//   let row = "";
+//   //for extra space 
+//   for (let j = 1; j <= 5 - i; j++){
+//     row += "&nbsp; &nbsp"
+//   }
+//   for (let j = 1; j <= 2 * i - 1; j++){
+//   row   += "*&nbsp"
+//   }
+//   document.write(row , "<br>")
+// }
+
+
+// * * * * * * * * *
+//    * * * * * * *
+//     * * * * *
+// 	     * * *
+//       	*
+
+
+// for (let i = 5; i >= 1; i--) {
+//   let row = "";
+
+//   // spaces
+//   for (let j = 1; j <= 5 - i; j++) {
+//     row += "&nbsp;&nbsp;";
+//   }
+
+//   // stars
+//   for (let j = 1; j <= 2 * i - 1; j++) {
+//     row += "*&nbsp;";
+//   }
+
+//   document.write(row + "<br>");
+// }
+
+    //  * * * * *
+    //  *       *
+    //  *       *
+    //  *       *
+    //  * * * * *
+
+// for (let i = 1; i <= 5; i++) {
+//     let row = "";
+
+//     for (let j = 1; j <= 5; j++) {
+
+//         if (i === 1 || i === 5 || j === 1 || j === 5) {
+//             row += "*&nbsp;";
+//         } else {
+//             row += "&nbsp;&nbsp;&nbsp;";
+//         }
+
+//     }
+
+//     document.write(row + "<br>");
+// }
+
+    //  *
+    //  * *
+    //  *   *
+    //  *     *
+    //  *       *
+    //  * * * * * *
+    
+    
+    
+   
